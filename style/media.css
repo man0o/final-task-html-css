@@ -1,0 +1,235 @@
+
+
+@media all and (min-width: 1024px) {
+
+    
+    .header-all {
+        height: 754px;
+        background-image: url(../img/ipod-header.png);
+    }
+
+    .menu {
+        display: block;
+        
+    }
+
+    .menu a {
+        color: #000;
+        font-family: Manrope;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; 
+    }
+    .menu-list-link {
+
+        position: relative;
+     
+        text-decoration: none;
+        
+     }
+     
+     .menu-list-link::after {
+         content: "";
+         position: absolute;
+         left: 0;
+         bottom: -7px;
+         height: 2px;
+         width: 0%;
+         background-color:#232325;
+     
+         transition: all .3s;
+     }
+     
+     .menu-list-link:hover::after {
+         width: 100%;
+     }
+
+    .menu-img {
+        display: none;
+    }
+
+    .header-h1 {
+        color: #000;
+        font-family: Manrope;
+        font-size: 5.6rem;
+        font-weight: 800;
+        line-height: 73.5px;
+
+        text-align: left;
+        padding-left: 104px;
+    }
+
+    .header-description {
+        color: #000;
+
+       font-family: Manrope;
+       font-size: 2rem;
+       font-weight: 400;
+       line-height: 36px;
+       letter-spacing: 0.2px;
+
+       max-width: 644px;
+       text-align: left;
+       padding-left: 84px;
+       padding-bottom: 200px;
+       margin-inline: none ;
+    }
+
+    .menu {
+        margin-top: 6px;
+        margin-left: 89px ;
+    }
+
+   
+    .section1-boxes {
+        grid-template-columns: auto auto;
+    }
+
+    .main-h1 {
+        padding-bottom: 30px;
+    }
+
+    .main-p {
+        max-width: 852px;
+        margin-inline: auto;
+        
+        color: #000;
+
+        text-align: center;
+        font-family: Manrope;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 39.5px; 
+        letter-spacing: 0.2px
+    }
+
+    .section2-box1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .section2-box1-img {
+        padding-top: 48px;
+    }
+
+    .section2-box1-fonts {
+        max-width: 428px;
+        display: block;
+    }
+
+    
+    .section2 p {
+        color:  #808080;
+    text-align: left;
+    font-family: Manrope;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px; 
+    
+    padding-bottom: 40px
+    }
+
+    .section2 h1 {
+        color:  #2E2E2E;
+    
+        text-align: left;
+        font-family: Manrope;
+        font-size: 3.6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 41.5px; 
+    
+        padding-top: 30px;
+        padding-bottom: 61px;
+    }
+
+    .section2-box1-p {
+        text-align: center;
+    }
+
+    .section2-box2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section2-box2-img {
+        padding-top: 35px;
+    }
+
+    .section2-box2-fonts {
+        display: block;
+        max-width: 428px;
+    }
+
+    
+
+.conteiner3  {
+    display: flex;
+    height: 536px;
+    flex-direction: column;
+    gap: 49px;
+    flex-shrink: 0;
+    padding: 80px 60px 152px 60.96px;
+    
+}
+
+.conteiner3-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 49px;
+}
+
+
+}
+
+@media all and (min-width: 1440px) {
+   
+    .header-all {
+        height: 754px;
+        background-image: url(../img/Rectangle\ 1.jpg);
+    }
+
+    .header-h1 {
+        padding-top: 72px;
+    }
+
+    .header-discription {
+        padding-top: 102px;
+    }
+    }
+
+    header {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu-img {
+        display: none;
+    }
+
+    
+
+   .section1-boxes {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+

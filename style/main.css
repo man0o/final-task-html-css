@@ -1,0 +1,444 @@
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    
+}
+
+
+/******** header *********/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+    margin-left: 20px;
+    margin-right: 33px;
+}
+
+.header-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 601px;
+    background-image: url(../img/iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 84.15px;
+    text-align: center;
+}
+
+.header-button-link {
+    text-decoration: none;
+    color: #FFF;
+    
+
+
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    border-radius: 5px;
+    background: #F84646;
+    border: 1px solid #F84646;
+
+    transition: all .4s;
+
+}
+
+.header-button :hover {
+    color: #F84646 ;
+    background: transparent;
+}
+
+
+.menu-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.menu-list-link {
+    color: #000;
+
+    font-family: Manrope;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+
+.menu {
+    display: none;
+}
+
+
+.header-h1 {
+    color: #000000;
+    font-size: 4.2rem;
+    text-align: center;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 57.5px;
+}
+
+.header-description {
+    margin-left: 20px ;
+    margin-right: 20px;
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+
+
+
+
+/* main */
+
+main {
+   text-align: justify; 
+}
+
+/* section1 */
+.section1 {
+    display: grid;
+    gap: 80px;
+    padding: 40px 38.5px 90px 38.5px;
+}
+
+.section1 h1 {
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.main-p {
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    
+}
+
+.section1-boxes {
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.section1-boxes p {
+    max-width: 298px;
+}
+
+
+
+.section1-boxes {
+    display: grid;
+    gap: 80px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.img-file {
+    position: absolute;
+}
+
+.box1-Ellipse {
+    position: relative;
+    padding-bottom: 42px;
+    left: 15px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: 10px;
+}
+
+.box2-Ellipse {
+    position: relative;
+    padding-bottom: 32px;
+    right: 19px;
+}
+
+.img-vector {
+    position: absolute;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.box3-Ellipse {
+    position: relative;
+    padding-bottom: 42px;
+    left: 30px;
+    top: 6px;
+}
+
+.img-crownbox {
+    position: absolute;
+}
+
+/* boxes  */
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.box4-Ellipse {
+    position: relative;
+    padding-bottom: 32px;
+    right: 14px;
+    top: 6px;
+}
+
+.img-chartbarbox {
+    position: absolute;
+}
+
+
+.box5{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.img-chatbox5 {
+    position: absolute;
+}
+
+.box5-Ellipse {
+    position: relative;
+    padding-bottom: 31px;
+    left: 22px;
+}
+.box6{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: 6px;
+}
+
+.img-figmalogbox {
+    position: absolute;
+}
+
+.box6-Ellipse {
+    position: relative;
+    padding-bottom: 26px;
+    left: 9px;
+    bottom: 12px;
+}
+
+/* section2 */
+
+.section2 {
+    text-align: center;
+}
+
+.section2 h1 {
+    color:  #2E2E2E;
+
+    text-align: center;
+    font-family: Manrope;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41.5px; 
+
+    padding-top: 30px;
+    padding-bottom: 61px;
+}
+
+.section2 p {
+    color:  #808080;
+text-align: center;
+font-family: Manrope;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 28.5px; 
+max-width: 336px;
+
+padding-bottom: 40px
+
+
+
+}
+
+.section2 a {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 1.4gap;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+} 
+
+.box1-button {
+    display: flex;
+    height: 108px;
+    width: 338px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    background: #F84646;
+}
+
+.box2-button {
+    display: flex;
+    height: 48px;
+    width: 338px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F84646;
+    
+}
+
+.section2-box1-fonts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section2-box2-fonts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2-box1 {
+    padding: 90px 20px 44px 17px;
+}
+
+
+.section2-box2{
+    padding: 44px 17px 44px 20px;
+}
+
+
+/* footer  */
+
+footer {
+    background: #F8464A;
+}
+
+.conteiner3 {
+    display: flex;
+    height: 1027px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 49px;
+    flex-shrink: 0;
+
+    padding: 80px 96.39px 77px 20px;
+}
+
+.conteiner3 h5 {
+    color: #FFF;
+    font-variant-numeric: lining-nums proportional-nums;
+
+
+    font-family: Inter;   
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+.conteiner3 a {
+    color:#E6E6E6;
+
+
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    gap: 24px;
+}
+
+span {
+    color: #FFF;
+
+
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.conteiner3-box1
+, .conteiner3-box2
+, .conteiner3-box3
+, .conteiner3-box4
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
